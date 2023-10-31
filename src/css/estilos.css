@@ -14,8 +14,7 @@ nav{
 ul{
     display: table;
     height: 100%;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 li{
@@ -27,8 +26,41 @@ li{
 }
 
 
+.historico {
+    color: white;
+    text-align: justify;
+    margin: 0.5%;
+}
+
+.titulo_1 {
+    text-align: center;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.titulo_2 {
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+
 .img_logo{
     margin-left: 0.5%;
     margin-top: 0.1%;
     height: 50px;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.img_folder{
+    display: flex;
+    margin-top: 0.5%;
+    margin-right: 0.5%;
+    height: 400px;
+
 }
