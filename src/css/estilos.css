@@ -25,11 +25,19 @@ li{
  
 }
 
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
 
 .historico {
     color: white;
     text-align: justify;
     margin: 0.5%;
+    margin-left: 30%;
+    margin-right: 5%;
 }
 
 .titulo_1 {
@@ -49,11 +57,7 @@ li{
     height: 50px;
 }
 
-main{
-    display: flex;
-    height: 100%;
-    width: 100%;
-}
+
 
 
 
@@ -61,6 +65,6 @@ main{
     display: flex;
     margin-top: 0.5%;
     margin-right: 0.5%;
-    height: 400px;
+    height: 20em;
 
 }
