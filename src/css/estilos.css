@@ -7,6 +7,7 @@ body {
 nav{
     display: flex;
     background-color: white;
+    height: 55px;
 
 }
 
@@ -25,6 +26,9 @@ li{
  
 }
 
+
 .img_logo{
+    margin-left: 0.5%;
+    margin-top: 0.1%;
     height: 50px;
 }
