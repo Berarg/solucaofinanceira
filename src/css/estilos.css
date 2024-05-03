@@ -100,7 +100,8 @@ main{
     display: flex;
     margin-top: 0.5%;
     margin-right: 0.5%;
-    height: 20em;
+    width: 15%;
+    height: 15%;
     border-radius: 15px;
 
 }
