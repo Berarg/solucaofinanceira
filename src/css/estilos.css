@@ -28,6 +28,7 @@ ul{
 
 
 main{
+    /* display: flex; */
     height: 100%;
     width: 100%;
     color: white;
@@ -36,6 +37,7 @@ main{
 
 .corpo{
     display: flex;
+    width: 100%;
 }
 
 
@@ -96,12 +98,18 @@ main{
     height: 50px;
 }
 
+.img_propaganda{
+    width: 100%;
+    height: 100%;
+}
+
 .img_folder{
     display: flex;
     margin-top: 0.5%;
     margin-right: 0.5%;
-    width: 15%;
-    height: 15%;
+    /* height: 20em; */
+    width: 90%;
+    /* height: 70%; */
     border-radius: 15px;
 
 }
