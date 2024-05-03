@@ -8,6 +8,7 @@ nav{
     display: flex;
     background-color: white;
     height: 55px;
+    border-radius: 0px 0px 15px 15px;
 
 }
 
@@ -17,27 +18,66 @@ ul{
     width: 100%; 
 }
 
-li{
+.buton{
     height: 100%;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
- 
+    cursor: pointer;
 }
 
+
 main{
-    display: flex;
+    /* display: flex; */
     height: 100%;
     width: 100%;
+    color: white;
+    text-align: justify;
+}
+
+.corpo{
+    display: flex;
 }
 
 
 .historico {
-    color: white;
-    text-align: justify;
+
     margin: 0.5%;
     margin-left: 30%;
     margin-right: 5%;
+}
+
+.solucoes{
+    margin-top: 55px;
+    margin: 0.5%;
+    margin-left: 30%;
+    margin-right: 5%;
+}
+
+.vitrine{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.produtos{
+    display: flex;
+}
+
+.produto{
+    width: 300px;
+    padding: 5px;
+    background-color: blue;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+
+}
+
+.descricao{
+    font-size: 16px;
+    text-align: center;
 }
 
 .titulo_1 {
@@ -57,14 +97,11 @@ main{
     height: 50px;
 }
 
-
-
-
-
 .img_folder{
     display: flex;
     margin-top: 0.5%;
     margin-right: 0.5%;
     height: 20em;
+    border-radius: 15px;
 
 }
